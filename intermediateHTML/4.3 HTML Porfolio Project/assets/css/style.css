@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+ 
+    color: #333;
+    background-color: #f1ebeb;
+}
+
+header {
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0 0 20%;
+
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+}
+
+nav {
+      margin: 10% 0 15px 50px;
+}
+
+ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #973723;
+    
+}
+
+#special-link {
+    color: #973723;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+main {
+       padding: 6%;
+       display: flex;
+       justify-content: space-between;
+      
+}
+
+.introduction {
+    margin: 20px 0 20px 20px;
+    width: 50%;
+    float: left;
+    padding: 8px
+}
+
+.greetings {
+    color: #973723;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.introduction p {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.special-text {
+    color: #973723;
+    font-weight: bold;
+}
+.user-section {
+    display: inline;
+    margin-left: -80px;
+    border-radius: 50%;
+}
+
+.user-pic {
+    width: 450px;
+    height: auto;
+   
+    border-radius: 50%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+}
+
+.project-sec{
+      width: 30%;
+      height: auto;
+      margin: 20px;
+}
+
+.project-sec p{
+   margin: 10px;
+    width: 200px;
+   flex-wrap: wrap;
+}
+
+.project-sec a {
+    text-decoration: none;
+    color: #973723;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.super-text {
+    background-color: #973723;
+    width: 30%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 40%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+
+.project-sec img {
+    width: 100%;
+    height: auto;
+    margin-right: -10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

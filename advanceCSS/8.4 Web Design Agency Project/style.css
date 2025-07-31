@@ -19,3 +19,37 @@ footer {
   color: midnightblue;
 }
 
+.special-text {
+      color: rgba(118, 5, 156, 0.2);
+      font-weight: bolder;
+}
+
+
+.card {
+     width: 45%;
+}
+
+.card-title {
+     font-size: 2em;
+    
+}
+
+.left {
+       float: left;
+}
+
+.right {
+       float: right;
+}
+
+.tile-image {
+   width: 50%;
+   float: left;
+   margin-right: 20px;
+}
+
+.card p {
+   text-align: justify;
+
+   
+}

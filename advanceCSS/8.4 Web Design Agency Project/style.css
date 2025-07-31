@@ -88,7 +88,7 @@ footer {
 /* Media Queries Section */
 
 /* Mobile Devices Compatibility */
-@media (min-width: 319px) and (max-width: 680px) {
+@media  (max-width: 680px) {
   .logo {
       width: 45%;
     }
@@ -102,9 +102,9 @@ footer {
 
       .card {
            width: 100%;
+           display: block;
         }
-
-        .left, .right, .tile-image {
+     .tile-image {
            float: none;
         }
 
@@ -129,65 +129,5 @@ footer {
     /* For screen size min-width  */
 
 @media (min-width: 681px) and (max-width: 1200px) {
-  .logo {
-    width: 45%;
-  }
-
-  h1 {
-    font-size: 5rem;
-    margin: 40px 10px 40px 20px;
-    color: white;
-
-  }
-  
-  .card {
-      width: 20%;
-      display: flex;
-      flex-wrap: wrap;
-  }
-
-.card-title {
-  font-size: 2em;
- 
-
-}
-.left {
-  float: left;
-  margin: 40px 0  0 0;
-
-}
-
-.right {
-    display: inline-block;
-  
-}
-
-.tile-image {
-  width: 45%;
-  height: 200px;
-  float: left;
-  margin: none;
-  
-}
-
-.card p {
-  text-align: justify;
- 
-
-
-}
-
-.right {
-  background-color: rgb(195, 138, 15);
-  transition: background-color 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  color: white;
-
-}
-
-
-
-
-
-
+  /* :TODO: CSS Rule for screen size will be added later */
 }

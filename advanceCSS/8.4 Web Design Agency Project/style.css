@@ -4,6 +4,7 @@ body {
   /* background-color: #faf9f6; */
   background: url(./assets/images/bg.jpg);
   background-size: cover;
+  transition: all 2s ease-in-out;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
@@ -39,6 +40,7 @@ footer {
 
 .card {
      width: 45%;
+    
 }
 
 .card-title {
@@ -58,7 +60,8 @@ footer {
    width: 50%;
    height: 350px;
    float: left;
-   margin-right: 2px;
+   margin-right: 10px;
+
 }
 
 .card p {
@@ -67,9 +70,9 @@ footer {
 }
 
 .right{
-   background-color: rgb(195, 138, 15);
+   background-color: rgba(29, 162, 219, 0.544);
    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(29, 162, 219, 0.617);
     color: white;
 
 }
@@ -78,8 +81,8 @@ footer {
 .card:hover  {
   background-color: rgba(29, 162, 219, 0.772);
   color: white;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 4px 8px rgba(195, 138, 15, 0.711);
+  transition: background 3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(29, 162, 219, 0.772);
 
 
 }
@@ -130,4 +133,45 @@ footer {
 
 @media (min-width: 681px) and (max-width: 1200px) {
   /* :TODO: CSS Rule for screen size will be added later */
+  .logo {
+      width: 45%;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      margin: 40px 10px 60px 20px;
+      color: white;
+  
+    }
+  
+    .card {
+      width: 40%;
+      
+    }
+  
+    .left {
+      margin-left: 2px;
+    }
+
+    .tile-image {
+      float: none;
+      height: 450px;
+      margin: 10px 10px 5px 3px;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .tile-image {
+      width: 100%;
+    }
+  
+    .card-title {
+      padding-left: 10px;
+    }
+  
+    .card p {
+      text-align: justify;
+      padding: 10px;
+  
+    }
+  
 }
